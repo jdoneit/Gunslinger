@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Spatial Animation Definitions
+ 
+ types:
+ - posX
+ - posY
+ - scale
+ - scaleX
+ - scaleY
+ - rgba     (color animation)
+ - alpha
+ - radius   (angular movement)
+ - texX     (texture y offset)
+ - texY     (texture x offset)
+ 
+ 
+ -->
+
+
+<animations>
+    
+    <!-- example animation scale -->
+    <animation name="animScale" type="scale" loop="true">
+        <frame value="1.0"  ms="0.0" />
+        <frame value="0.5"  ms="0.5" />
+        <frame value="1.0"  ms="1.0" />
+    </animation>
+
+    <animation name="animRGBA" type="rgba" loop="true">
+        <frame value="1,1,1,0.7"  ms="0.0" />
+        <frame value="1,1,1,0.0"  ms="2.0" />
+        <frame value="1,1,1,0.7"  ms="4.0" />
+    </animation>
+
+    <animation name="animAlpha" type="alpha" loop="true">
+        <frame value="0.4"  ms="0.0" />
+        <frame value="0.4"  ms="1.0" />
+        <frame value="0.25" ms="1.5" />
+        <frame value="0.4"  ms="2.0" />
+        <frame value="0.4"  ms="3.0" />
+    </animation>
+    
+    <animation name="animRotateLeft" type="rotateLeft" loop="true">
+        <frame value="0.0"  ms="0.0" />
+        <frame value="1.0"  ms="10.0" />
+    </animation>
+    
+    <animation name="animFrames" assetId="greenInlay_derezz" type="frames" ms="0.08" loop="true">
+		<frame id="1" />
+		<frame id="2" />
+		<frame id="3" />
+		<frame id="4" />
+    </animation>
+
+    <animation name="animPosX" type="posX" loop="false">
+        <frame value="-550"  ms="0.0" />
+        <frame value="550"  ms="10.0" />
+    </animation>
+
+    <animation name="animScaleX" type="scaleX" loop="false">
+        <frame value="0.0"  ms="0.0" />
+        <frame value="1.0"  ms="0.5" />
+    </animation>
+
+    <animation name="animTexScaleX" type="texScaleX" loop="false">
+        <frame value="0.0"  ms="0.0" />
+        <frame value="1.0"  ms="5.0" />
+    </animation>
+    
+    <animation name="animTexX" type="texX" loop="true">
+        <frame value="1.0"  ms="0.0" />
+        <frame value="0.0"  ms="0.7" />
+    </animation>
+
+</animations>
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<texturedefinitions>
+    
+    <!-- ***************************************** -->
+    <!-- SCOPE:: GLOBAL -->
+    <!-- ***************************************** -->
+    <!--
+
+    <texture name="testTexture" assetId="filename" alpha="true" scope="global" />
+</texturedefinitions>
